@@ -1,0 +1,44 @@
+.label-divider {
+    padding: 5px 8px;
+    background-color: #fff;
+    position: relative;
+    top: 8px;
+}
+
+.contain {
+    height: 5px;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.divider {
+    border-bottom: 1px solid #000;
+}
+
+.divider.weight__light {
+    border-bottom-width: 0.7px;
+}
+.divider.weight__regular {
+    border-bottom-width: 1px;
+}
+.divider.weight__heavy {
+    border-bottom-width: 2px;
+}
+.divider.left {
+    text-align: left;
+}
+.divider.right {
+    text-align: right;
+}
+.divider.center {
+    text-align: center;
+}
+.divider.solid {
+    border-bottom-style: solid;
+}
+.divider.dashed {
+    border-bottom-style: dashed;
+}
+.divider.dotted {
+    border-bottom-style: dotted;
+}
